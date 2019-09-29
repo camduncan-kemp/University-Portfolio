@@ -1,0 +1,9 @@
+Number: 1011111101 is a palindromic number.
+Number: 112121211 is a palindromic number.
+Number: 4436666344 is a palindromic number.
+Number: 2331991332 is a palindromic number.
+Number: 1744114471 is a palindromic number.
+Number: 1838558381 is a palindromic number.
+Number: 293191392 is a palindromic number.
+Number: 2089009802 is a palindromic number.
+A total of 8 palindromic numbers were found.

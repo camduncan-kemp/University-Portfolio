@@ -1,0 +1,6 @@
+Enter the current price of the item: 33.95
+Enter the price of the item one year ago: 36.99
+Enter the price of the item two years ago: 40.99
+Current year inflation: -0.08
+Inflation one year ago: -0.1
+Inflation is increasing.

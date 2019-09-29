@@ -1,0 +1,4 @@
+Enter the number of minutes to prepare first dish: 6
+Enter how many more minutes to prepare the next dish: 4
+Enter the total time (in minutes) to prepare all the dishes: 57
+In 9 minute(s) the pastry cook can prepare 4 dishes with 9 minutes to spare.

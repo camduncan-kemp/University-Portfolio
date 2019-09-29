@@ -1,0 +1,177 @@
+/* Background image set, with black background if image fails to load */
+body{ 
+    background-image: url("cityNoir.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+
+
+}
+/* All Links in main body will be white by default, turn red when hovered, orange when visited */
+.content a{
+  color: white;
+}
+.content a:hover{
+  color: red;
+}
+.content a:visited{
+  color: orange
+}
+
+/* Set headings to have consistent appearance. */
+h1{
+font-family: "Courier New", Courier, monospace;
+font-size: 2em;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: white;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+/* Align all the main content of website within the div containers */
+div{
+    padding: 20px; 
+    width: 200px; 
+  }
+
+/* Add background to main content container, round the corners of box and give them a consistent appearance */
+  div.content {
+    border-radius: 25px;
+    margin-left: 20%;
+    background-image: url("smoke.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px 16px;
+    height: 35em;
+    width: 45em;
+    text-align: center;
+    border-style: solid;
+  }
+
+/* Style text of main content */
+div.content{
+font-family: "Courier New", Courier, monospace;
+font-size: 1em;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: white;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+/* Align main content container to center */
+.container{
+    text-align: center
+}
+
+/* Styling of the side navigation bar and make it scroll with page */
+ul.leftnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-image: url("smoke.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+    height: 100%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+/* Sidebar links styling */
+  ul.leftnav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom-style: solid;
+    
+  }
+/* Highlight link to current page on sidebar */
+  ul.leftnav li a.active {
+    background-color: rgb(116, 116, 114);
+    color: white;
+  }
+
+
+/* Highlight sidebar links while hovered */
+  ul.leftnav li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+  }
+
+
+/* Styling for different media devices */
+  @media screen and (max-width: 900px) {
+    ul.leftnav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    div.content{
+        margin-left: 5%
+    }
+}
+  @media screen and (max-width: 400px) 
+  {
+    ul.leftnav li a {
+      text-align: center;
+      float: none;
+    }
+    div.content{
+        margin-left: 5%
+    }
+}
+
+
+/* Add border to all images */
+img{
+    border-style: solid;
+}
+
+
+/* Styling for print format */
+@media print{
+  .leftnav{
+    display: none
+  }
+  body{
+    background-image: none;
+  }
+  div.content{
+    background-image: none;
+    margin-left: 0%;
+    font: 12pt Georgia, "Times New Roman", Times, serif;
+    line-height: 1.3;
+  }
+  p{
+    color:black;
+  }
+  h1{
+    font: 18pt Georgia, "Times New Roman", Times, serif;
+    color: black;
+  }
+  @page{
+    margin:4em;
+  }
+}
